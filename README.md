@@ -17,3 +17,18 @@ Evitar que o usuário se perca no excesso de informações do site institucional
    ```bash
    git clone https://github.com/pedroab1/trabalhoweb.git
    cd trabalhoweb
+2. **Crie e ative um ambiente virtual**
+   ## No Windows:
+    ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+   ## No Linux/Mac:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
+3. **Execute o script**
+   ```bash
+   python raspador_rioclaro.py
+   ```
